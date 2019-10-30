@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/stylesheet.css">
+
+		<title>Different Dogs</title>
+	</head>
+	<body>
+
+		<div class="jumbotron">
+			<h1 class="display-4 text-center">Dog's Object</h1>
+		</div>
+
+		<div class="container bg-light">
+
+			<!-- Button to complete an action -->
+			<button id="allDogs" class="btn btn-sm btn-info">All Dogs in Array</button>
+			<button id="jackRussell" class="btn btn-sm btn-info">My Real Dog</button>
+			<button id="largeDog" class="btn btn-sm btn-info">Large Dogs, Over 65cm</button>
+			<button id="smallDog" class="btn btn-sm btn-info">Small Dogs, Under 65cm</button>
+			<button id="racingDogs" class="btn btn-sm btn-info">Racing Dogs</button>
+
+			<!-- User input field to change dog information -->
+			<div id="userInputForm" class="row">
+
+				<!-- Enter old name -->
+				<div class="col-md-6">
+					<label for="oldName">Old Name:</label>
+					<input type="text" id="oldName" class="form-control">
+				</div>
+				<!-- Enter New Name -->
+				<div class="col-md-6">
+					<label for="newName">New Name:</label>
+					<input type="text" id="newName" class="form-control">
+					<br>
+				</div>
+				<button id="changeName" class="btn btn-lg btn-block btn-info">Change Name</button>
+
+
+			</div>
+
+			<!-- Div containing the info of all of my dogs -->
+			<h2>Man's Best Friend(s)</h2>
+			<div id="dogsContainer" class="row align-items-center">
+
+			</div>
+
+			<!-- Blank section with no styling. Styles are effected by scripts -->
+			<div id="dogsContainerNoStyle">
+				
+			</div>
+			
+		<!-- End of container -->
+		</div>
+
+		<!-- Modal created using JS instead of vanilla bootstrap -->
+		<div class="my-modal">
+			<div class="close-bar bg-primary">
+				&times;
+			</div>
+			<div id="dogModal" class="dogs-popup">
+
+			</div>
+		</div>
+
+		
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<!-- Optional JavaScript -->
+		<script src="js/script.js"></script>
+	</body>
+</html>

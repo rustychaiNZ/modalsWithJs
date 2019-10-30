@@ -1,0 +1,68 @@
+body{
+	background-color: #666666;
+}
+.bg-custom{
+	background: #abc;
+}
+.margin-auto{
+	margin: auto;
+	float: 0;
+}
+.jumbotron{
+	border-radius: 0;
+	margin: 0;
+}
+.container{
+	min-height: 45vh;
+	padding: 15px 5px;
+}
+.container p,h2,h3,h4,h5,h6{
+	color: #333;
+}
+h4{
+	padding: 15px 0;
+}
+.row{
+	margin: auto;
+}
+.form-output{
+	margin: 10px 0;
+}
+.bg-dark{
+	color: white;
+}
+.bg-secondary h3{
+	color: white;
+}
+.bg-secondary p{
+	color: white;
+}
+.my-dogs{
+	cursor: pointer;
+}
+
+/* Modal styling */
+.my-modal{
+	background: yellow;
+	/*max-width: 60%;*/
+	/*max-height: 80vh;*/
+	display: none;
+	position: fixed;
+	top: 2.5px;
+	left: 20%;
+	right: 20%;
+	max-height: 80vh;
+}
+.close-bar{
+	font-size: 50px;
+	text-align: right;
+	padding: 0 20px;
+	cursor: pointer;
+}
+.img-modal{
+	min-width: 20%;
+	max-width: 60%;
+	max-height: 60vh;
+	margin: auto;
+	display: block;
+}
